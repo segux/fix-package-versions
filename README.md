@@ -15,7 +15,7 @@ This project is just for people that want to launch a stable product with curren
 
 ## Usage
 
-###Global
+### Global
 If you just type this in terminal, it will question you if want to fix all dependencies and devDependencies of package.json
 `fix-package-versions`
 
