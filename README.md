@@ -6,4 +6,4 @@ This project is just for people that want to launch a stable product with curren
 
 ## Options
 
-`-f , --force` : **Forces fix package versions without asking you in prompt**
+`-f , --force` : Forces fix package versions without asking you in prompt
