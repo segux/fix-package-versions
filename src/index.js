@@ -1,3 +1,4 @@
+const argv = require('optimist').argv;
 const editJsonFile = require('edit-json-file');
 const isObject = require('./utils/is-object');
 const Prompt = require('prompt-base');
@@ -8,6 +9,10 @@ const packageJsonFile = editJsonFile('./fake-package.json', { autosave: true });
 
 const devDependencies = packageJsonFile.get('devDependencies');
 const dependencies = packageJsonFile.get('dependencies');
+
+const forceFlag = false || argv.force || argv.f;
+
+console.log(forceFlag);
 
 console.log('----------- Checking devDependencies versions -------------');
 const fixVersion = (namespace, dependencies) => {
@@ -29,17 +34,21 @@ const setDependency = (namespace, dependency, version) => {
   }
 };
 
-// prompts
-const areYouSurePrompt = new Prompt({
-  name: 'areYouSure',
-  message: 'With this action you will make versions fixed with the latest package version installed. Are you sure? Y/n'
-});
-// areYouSurePrompt.run().then(answer => {
-//   if (!answer) return;
-//   if (answer.toLowerCase() === 'y') {
-//     fixVersion('devDependencies', devDependencies);
-//     fixVersion('dependencies', dependencies);
-//   }
-// });
-fixVersion('devDependencies', devDependencies);
-fixVersion('dependencies', dependencies);
+if (forceFlag) {
+  fixVersion('devDependencies', devDependencies);
+  fixVersion('dependencies', dependencies);
+} else {
+  // prompts
+  const areYouSurePrompt = new Prompt({
+    name: 'areYouSure',
+    message:
+      'With this action you will make versions fixed with the latest package version installed. Are you sure? Y/n'
+  });
+  areYouSurePrompt.run().then(answer => {
+    if (!answer) return;
+    if (answer.toLowerCase() === 'y') {
+      fixVersion('devDependencies', devDependencies);
+      fixVersion('dependencies', dependencies);
+    }
+  });
+}
