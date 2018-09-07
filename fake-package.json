@@ -1,0 +1,20 @@
+{
+  "name": "fix-package-versions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lodash": "4.17.10",
+    "moment": "2.22.2"
+  },
+  "dependencies": {
+    "edit-json-file": "1.1.0",
+    "json": "9.0.6",
+    "read-package-json": "2.0.13"
+  }
+}
