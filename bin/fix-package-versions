@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+'use strict';
+
+var   fixPackageVersions = require('../lib/index.js'),  
+      argv = require('optimist')
+      .boolean('cors')
+      .argv;
+
+if(argv.force || argv.f){
+  fixPackageVersions.fixAll();
+}else{
+  fixPackageVersions.areYouSure();
+}

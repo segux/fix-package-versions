@@ -8,7 +8,7 @@
     "fix-package-versions": "src/index.js"
   },
   "bin": {
-    "fix-package-versions": "./src/index.js"
+    "fix-package-versions": "./bin/fix-package-versions"
   },
   "author": "Jose Segura García <segux>",
   "license": "ISC",
