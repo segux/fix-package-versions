@@ -13,14 +13,14 @@
   "author": "Jose Segura García <segux>",
   "license": "ISC",
   "devDependencies": {
-    "lodash": "^4.17.10",
-    "moment": "^2.22.2"
+    "lodash": "4.17.10",
+    "moment": "2.22.2"
   },
   "dependencies": {
-    "edit-json-file": "^1.1.0",
-    "json": "^9.0.6",
-    "optimist": "^0.6.1",
-    "prompt-base": "^5.0.0",
-    "read-package-json": "^2.0.13"
+    "edit-json-file": "1.1.0",
+    "json": "9.0.6",
+    "optimist": "0.6.1",
+    "prompt-base": "5.0.0",
+    "read-package-json": "2.0.13"
   }
 }
