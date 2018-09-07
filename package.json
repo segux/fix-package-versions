@@ -1,6 +1,6 @@
 {
   "name": "fix-package-versions",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This is the first approach to a fix package.json versions",
   "main": "src/index.js",
   "scripts": {
