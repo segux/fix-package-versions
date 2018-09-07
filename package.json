@@ -2,10 +2,10 @@
   "name": "fix-package-versions",
   "version": "1.0.3",
   "description": "This is the first approach to a fix package.json versions",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "fix-package-versions": "src/index.js"
+    "fix-package-versions": "lib/index.js"
   },
   "bin": {
     "fix-package-versions": "./bin/fix-package-versions"

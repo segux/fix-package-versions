@@ -8,7 +8,7 @@
       "type": "node",
       "request": "launch",
       "name": "Iniciar programa",
-      "program": "${workspaceFolder}/src/index.js"
+      "program": "${workspaceFolder}/lib/index.js"
     }
   ]
 }
