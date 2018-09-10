@@ -10,6 +10,14 @@
   "bin": {
     "fix-package-versions": "./bin/fix-package-versions"
   },
+  "repository": {
+    "url": "https://github.com/segux/fix-package-versions",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/segux/fix-package-versions/issues",
+    "email": "josesegurag90@gmail.com"
+  },
   "author": "Jose Segura García <segux>",
   "license": "ISC",
   "devDependencies": {
