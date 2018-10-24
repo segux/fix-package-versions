@@ -7,7 +7,7 @@ install:
 deploy:
   provider: script
   skip_cleanup: true
-  script: .travis/pu.sh
+  script: scripts/pu.sh
   on:
     branch: master
     tags: false
