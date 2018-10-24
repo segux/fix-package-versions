@@ -7,7 +7,7 @@ install:
 deploy:
   provider: script
   skip_cleanup: true
-  script: scripts/pu.sh
+  script: "sh ./scripts/pu.sh"
   on:
     branch: master
     tags: false
