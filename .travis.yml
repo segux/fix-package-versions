@@ -1,0 +1,14 @@
+language: node_js
+sudo: false
+node_js:
+  - "10"
+install:
+  - npm install
+script:
+  - npm run bump-build-version
+deploy:
+  provider: npm
+  email: josesegurag90@gmail.com
+  api_key: $NPM_TOKEN
+  on:
+    tags: true
