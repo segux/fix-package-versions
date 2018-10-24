@@ -6,7 +6,6 @@ install:
   - npm install --no-package-lock
 script:
   - npm run bump-patch-version
-  - git push origin master
 deploy:
   provider: npm
   email: josesegurag90@gmail.com
