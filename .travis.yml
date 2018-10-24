@@ -5,8 +5,8 @@ node_js:
 install:
   - npm install --no-package-lock
 script:
-  - npm run bump-patch-version
   - git checkout -- .
+  - npm run bump-patch-version
   - git push origin master
 deploy:
   provider: npm
