@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "fix-package-versions": "lib/index.js",
-    "bump-patch-version": "npm version patch"
+    "bump-patch-version": "node ./scripts/bump-build-version.js"
   },
   "bin": {
     "fix-package-versions": "./bin/fix-package-versions"
