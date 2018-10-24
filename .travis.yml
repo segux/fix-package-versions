@@ -5,7 +5,7 @@ node_js:
 install:
   - npm install
 script:
-  - npm run bump-build-version
+  - npm run bump-patch-version
 deploy:
   provider: npm
   email: josesegurag90@gmail.com
