@@ -5,9 +5,15 @@ node_js:
 install:
   - npm install --no-package-lock
 deploy:
-  provider: script
-  skip_cleanup: true
-  script: "sh ./scripts/pu.sh"
-  on:
-    branch: master
-    tags: false
+  - provider: script
+    skip_cleanup: true
+    script: "sh ./scripts/pu.sh"
+    on:
+      branch: master
+      tags: true
+  - provider: npm
+    email: josesegurag90@gmail.com
+    api_key: NPM_TOKEN
+    on:
+      branch: master
+      tags: true
