@@ -3,7 +3,7 @@ sudo: false
 node_js:
   - "10"
 install:
-  - npm install
+  - npm install --no-package-lock
 script:
   - npm run bump-patch-version
 deploy:
