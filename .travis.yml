@@ -4,9 +4,10 @@ node_js:
   - "10"
 install:
   - npm install --no-package-lock
-script:
-  - npm run bump-patch-version
 deploy:
-  provider: npm
-  email: josesegurag90@gmail.com
-  api_key: $NPM_TOKEN
+  provider: script
+  skip_cleanup: true
+  script: .travis/pu.sh
+  on:
+    branch: master
+    tags: false
