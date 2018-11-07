@@ -15,6 +15,7 @@
   "dependencies": {
     "edit-json-file": "1.1.0",
     "json": "9.0.6",
-    "read-package-json": "2.0.13"
+    "read-package-json": "2.0.13",
+    "zone.js": "^0.8.26"
   }
 }

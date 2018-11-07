@@ -23,6 +23,7 @@
   "author": "Jose Segura García <segux>",
   "license": "ISC",
   "devDependencies": {
+    "jest": "^23.6.0",
     "lodash": "4.17.10",
     "moment": "2.22.2"
   },
