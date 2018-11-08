@@ -39,8 +39,6 @@ function _defineProperty(obj, key, value) {
 
 var editJsonFile = require('edit-json-file');
 
-var isObject = require('./utils/is-object');
-
 var PJV = require('package-json-validator').PJV;
 
 var FixPackageVersionsLib =
