@@ -4,6 +4,8 @@ node_js:
   - "10"
 install:
   - npm install --no-package-lock
+test: 
+  - npm run test
 deploy:
   - provider: script
     skip_cleanup: true

@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Test author",
   "license": "ISC",
   "devDependencies": {
     "lodash": "4.17.10",
@@ -16,6 +16,6 @@
     "edit-json-file": "1.1.0",
     "json": "9.0.6",
     "read-package-json": "2.0.13",
-    "zone.js": "^0.8.26"
+    "zone.js": "0.8.26"
   }
 }

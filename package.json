@@ -4,7 +4,7 @@
   "description": "This is the first approach to a fix package.json versions",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Info: no test specified\" && exit 0",
+    "test": "jest",
     "fix-package-versions": "lib/index.js",
     "version": "git add .",
     "postversion": "git push && git push --tags"
@@ -23,15 +23,23 @@
   "author": "Jose Segura García <segux>",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
     "jest": "^23.6.0",
     "lodash": "4.17.10",
-    "moment": "2.22.2"
+    "moment": "2.22.2",
+    "package-json-validator": "^0.6.3",
+    "regenerator-runtime": "^0.12.1"
   },
   "dependencies": {
     "edit-json-file": "1.1.0",
     "json": "9.0.6",
     "optimist": "0.6.1",
     "prompt-base": "5.0.0",
-    "read-package-json": "2.0.13"
+    "read-package-json": "2.0.13",
+    "zone.js": "^0.8.26"
   }
 }
