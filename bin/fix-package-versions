@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 
-var fixPackageVersions = require('../lib/index.js'),  
+var fixPackageVersions = require('../dist/bundle.js'),  
       argv = require('optimist')
       .boolean('cors')
       .argv;
