@@ -1,4 +1,5 @@
 # fix-package-versions
+[![CodeFactor](https://www.codefactor.io/repository/github/segux/fix-package-versions/badge)](https://www.codefactor.io/repository/github/segux/fix-package-versions)
 [![Build Status](https://travis-ci.org/segux/fix-package-versions.svg?branch=master)](https://travis-ci.org/segux/fix-package-versions)
 ## Description
 //registry.npmjs.org/:_authToken=${NPM_TOKEN}
