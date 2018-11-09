@@ -5,7 +5,7 @@
 //registry.npmjs.org/:_authToken=${NPM_TOKEN}
 This project is just for people that want to launch a stable product with current versions of n and doesnt want to fight vs future version problems everytime you do a npm install
 
-## [NEW] Features in 1.1.1
+## [NEW] Features in 1.1.x
 - Add json validation with errors, warnings and recommendations about package.json
 - Add tests for a consistent versioning
 - Add rollup for a common.js library
