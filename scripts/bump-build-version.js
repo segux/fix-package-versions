@@ -19,6 +19,7 @@ exec( `npm version ${ newVersion }  --no-git-tag-version --yes`, null, ( error, 
   if ( error ) {
     console.error( `exec error: ${ error }` );
   }
+  
   console.log( stdout );
   console.log( `Bumped correctly build version ${ newVersion }` );
 } );
