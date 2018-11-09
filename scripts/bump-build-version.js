@@ -15,7 +15,7 @@ let newVersion = packageJson.version.split( '.' ).map( ( versionNumber, index ) 
   }
 } ).join( '.' );
 
-exec( `npm version ${ newVersion }  --no-git-tag-version --yes`, null, ( error, stdout, stderr ) => {
+exec( `npm version ${ newVersion }  --no-git-tag-version --yes`, null, ( error, stdout ) => {
   if ( error ) {
     console.error( `exec error: ${ error }` );
   }
