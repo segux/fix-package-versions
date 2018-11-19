@@ -2,7 +2,6 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/segux/fix-package-versions/badge)](https://www.codefactor.io/repository/github/segux/fix-package-versions)
 [![Build Status](https://travis-ci.org/segux/fix-package-versions.svg?branch=master)](https://travis-ci.org/segux/fix-package-versions)
 ## Description
-//registry.npmjs.org/:_authToken=${NPM_TOKEN}
 This project is just for people that want to launch a stable product with current versions of n and doesnt want to fight vs future version problems everytime you do a npm install
 
 ## [NEW] Features in 1.1.x
