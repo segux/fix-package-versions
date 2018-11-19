@@ -1,6 +1,8 @@
 # fix-package-versions
 [![CodeFactor](https://www.codefactor.io/repository/github/segux/fix-package-versions/badge)](https://www.codefactor.io/repository/github/segux/fix-package-versions)
 [![Build Status](https://travis-ci.org/segux/fix-package-versions.svg?branch=master)](https://travis-ci.org/segux/fix-package-versions)
+[![Published on npm](https://img.shields.io/npm/v/fix-package-versions.svg)](https://www.npmjs.com/package/fix-package-versions)
+
 ## Description
 This project is just for people that want to launch a stable product with current versions of n and doesnt want to fight vs future version problems everytime you do a npm install
 
