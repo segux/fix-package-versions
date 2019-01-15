@@ -31,3 +31,4 @@ If you just type this in terminal, it will question you if want to fix all depen
 ## Options
 
 `-f , --force` : Forces fix package versions without asking you in prompt
+
