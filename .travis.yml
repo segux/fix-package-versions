@@ -3,11 +3,11 @@ sudo: false
 node_js:
   - "10"
 install:
-  - npm install --no-package-lock
+  - yarn install
 test:
-  - npm run test
+  - yarn run test
 build:
-  - npm run build
+  - yarn run build
 deploy:
   - provider: script
     skip_cleanup: true
