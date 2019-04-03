@@ -4,7 +4,8 @@
 [![Published on npm](https://img.shields.io/npm/v/fix-package-versions.svg)](https://www.npmjs.com/package/fix-package-versions)
 
 ## Description
-This project is just for people that want to launch a stable product with current versions of n and doesnt want to fight vs future version problems everytime you do a npm install
+
+This package fixes node dependencies versions so they don't get updated nex time you do npm install
 
 ## [NEW] Features in 1.1.x
 - Add json validation with errors, warnings and recommendations about package.json
@@ -24,7 +25,7 @@ This project is just for people that want to launch a stable product with curren
 ## Usage
 
 ### Global
-If you just type this in terminal, it will question you if want to fix all dependencies and devDependencies of package.json
+If you just type this in terminal, it will ask you if want to fix all dependencies and devDependencies of package.json
 `fix-package-versions`
 
 
