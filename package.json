@@ -43,7 +43,7 @@
   "dependencies": {
     "babel-register": "^6.26.0",
     "edit-json-file": "1.1.0",
-    "json": "9.0.6",
+    "json": "10.0.0",
     "optimist": "0.6.1",
     "package-json-validator": "0.6.3",
     "prompt-base": "5.0.0",
